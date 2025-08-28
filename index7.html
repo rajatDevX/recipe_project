@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Project</title>
+    <style>
+        .parent {
+            display: flex;
+        }
+
+        #box {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .first {
+            background-color: red;
+        }
+
+        .second {
+            background-color: green;
+        }
+
+        .third {
+            background-color: blue;
+        }
+
+        .fourth {
+            background-color: yellow;
+        }
+
+        @media screen and (max-width:600px) {
+            .parent {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div id="box" class="first"></div>
+        <div id="box" class="second"></div>
+        <div id="box" class="third"></div>
+        <div id="box" class="fourth"></div>
+
+    </div>
+
+
+
+</body>
+
+</html>
