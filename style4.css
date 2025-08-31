@@ -8,7 +8,32 @@ body {
 }
 
 .btn {
-    color: white;
-    background-color: blue;
+    color: blue;
+    ;
+    background-color: white;
     text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding: 10px 20px;
+    border-radius: 0.3rem;
+    padding: 2rem 7rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.25), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
+
+.btn {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.btn2:hover {
+    transform: scale(0.95);
+
 }
