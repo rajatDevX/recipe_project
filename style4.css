@@ -10,4 +10,5 @@ body {
 .btn {
     color: white;
     background-color: blue;
+    text-transform: uppercase;
 }
