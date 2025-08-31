@@ -1,3 +1,13 @@
 body {
-    background: linear-gradient(to bottom right, blue, green);
+    background: linear-gradient(to bottom right, #3899ee, #38e2ee);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    color: white;
+    background-color: blue;
 }
