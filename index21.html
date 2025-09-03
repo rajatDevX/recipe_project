@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            background-color: beige;
+            border: 2px solid red;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+
+        .item {
+            background-color: salmon;
+            border: 1px solid black;
+        }
+
+        .pehla {
+            grid-row: 1/4;
+            background-color: green;
+        }
+
+        .dusra {
+            grid-column: 2/4;
+            background-color: green;
+        }
+
+        .tisra {
+            background-color: red;
+
+        }
+
+        .chautha {
+            grid-row: 2/4;
+            grid-column: 4/5;
+        }
+
+        .yellow {
+            background-color: rgb(255, 179, 0);
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item pehla">item1</div>
+        <div class="item dusra">item2</div>
+        <div class="item tisra">item3</div>
+        <div class="item yellow">item4</div>
+        <div class="item red">item5</div>
+        <div class="item chautha green">item6</div>
+        <div class="item red">item7</div>
+        <div class="item yellow">item8</div>
+
+    </div>
+
+</body>
+
+</html>
